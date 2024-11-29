@@ -1,0 +1,10 @@
+service:
+  nodeport: 30301
+ingress:
+  enabled: true
+  className: "nginx"
+  hosts:
+    - host: url-shortener-dev.test
+      paths:
+        - path: /
+          pathType: Prefix

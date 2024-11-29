@@ -1,0 +1,5 @@
+# Terraform State Files
+terraform.tfstate
+terraform.tfstate.*
+**/.terraform/**
+.terraform.*

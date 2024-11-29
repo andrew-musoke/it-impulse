@@ -1,0 +1,10 @@
+service:
+  nodeport: 30202
+ingress:
+  enabled: true
+  className: "nginx"
+  hosts:
+    - host: nginx-prod.test
+      paths:
+        - path: /
+          pathType: Prefix
